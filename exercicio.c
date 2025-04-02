@@ -1,6 +1,8 @@
 #include<stdio.h>
+#include<locale.h>
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
     int hr, min;
     float seg2, min2, seg;
     printf("Digite a hora, minuto e segundo: ");
