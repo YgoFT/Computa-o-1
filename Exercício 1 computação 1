@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int hr, min;
+    float seg2, min2, seg, aux = 5.5;
+    printf("Digite a hora, minuto e segundo: ");
+    scanf("%d %d %f", &hr, &min, &seg);
+    if (hr>1 && min>15)
+    {
+        seg2 = (hr*60*60)+(min*60)+seg;
+        printf("Quantia em segundos: %.2f\n", seg2);
+    }
+    else
+    {
+        min2 = (hr*60) + min + (seg/60);
+        printf("Quantidade em minutos: %.2f\n", min2);
+    }
+    printf("Horario: %02d:%02d:%02d\n", hr, min, seg);
+    printf("Float com duas casas: %.2f", aux);
+    return 0;
+}
