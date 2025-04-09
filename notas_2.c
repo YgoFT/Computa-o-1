@@ -13,11 +13,11 @@ int main()
     {
         printf("Média igual a %.2f\nFrequencia igual a %.2f\naprovado com distinção", media, frq);
     }
-    else if (media >= 6)
+    else if (media >= 6 && frq>=75)
     {
         printf("Média igual a %.2f\nFrequencia igual a %.2f\nAprovado direto", media, frq);
     }
-    else if (media >=4 || frq<=75)
+    else if (media >=4 || frq>=75)
     {
         printf("média igual a %.2f\nFrequencia igual a %.2f\nVai para final", media, frq);
     }
