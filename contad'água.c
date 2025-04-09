@@ -26,4 +26,5 @@ int main()
         V=7+20+140+(C-100)*3;
         printf("valor que deve ser pago: %d", V);
     }
+    return 0;
 }
