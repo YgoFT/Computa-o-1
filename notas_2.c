@@ -21,7 +21,7 @@ int main()
     {
         printf("média igual a %.2f\nFrequencia igual a %.2f\nVai para final", media, frq);
     }
-    else if (media<4 || frq<=50)
+    else
     {
         printf("média igual a %.2f\nFrequencia igual a %.2f\nReprovado direto", media, frq);
     }
