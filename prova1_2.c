@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    float media_min, media_seg, result, dif;
+    float mmin, mseg, result, dif;
     int min, km, seg;
     printf("Quantos km você percorreu?\nResposta: ");
     scanf("%d", &km);
@@ -9,9 +9,9 @@ int main()
     scanf("%d", &min);
     printf("Em quantos segundos você percorreu?\nResposta: ");
     scanf("%d", &seg);
-    media_min = min/km;
+    mmin = min/km;
     dif = min%km;
-    media_seg = ((dif*60)+seg)/(km*100);
-    result = media_min+media_seg;
+    mseg = ((dif*60)+seg)/(km*100);
+    result = mmin+mseg;
     printf("Seu ritmo é de %.2f\n", result);
 }
