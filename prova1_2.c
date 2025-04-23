@@ -13,5 +13,5 @@ int main()
     dif = min%km;
     media_seg = ((dif*60)+seg)/(km*100);
     result = media_min+media_seg;
-    printf("Sua média em km/s é de %.2f\n", result);
+    printf("Seu ritmo é de %.2f\n", result);
 }
