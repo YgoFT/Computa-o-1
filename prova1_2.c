@@ -11,7 +11,6 @@ int main()
     scanf("%d", &seg);
     mmin = min/km;
     dif = min%km;
-    mseg = ((dif*60)+seg)/(km*100);
-    result = mmin+mseg;
-    printf("Seu ritmo é de %.2f\n", result);
+    mseg = ((dif*60)+seg)/km;
+    printf("Sua média em km/s é de %.0f:%.0f\n", mmin, mseg);
 }
