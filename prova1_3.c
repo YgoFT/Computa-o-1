@@ -14,7 +14,7 @@ int main()
     {
         printf("%.2f DANO CRÍTICO MASSIVO!", dmg);
     }
-    else if(1000<dmg<5000)
+    else if(1000<=dmg)
     {
         printf("%.2f DANO CRÍTICO!", dmg);
     }
